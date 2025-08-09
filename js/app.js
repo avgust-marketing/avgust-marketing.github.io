@@ -525,11 +525,3 @@ createApp({
   }
 }).mount('#app');
 
-document.addEventListener('DOMContentLoaded', () => {
-  const contactButton = document.querySelector('.button');
-  if (contactButton) {
-    contactButton.addEventListener('click', () => {
-      window.open('https://www.gohighlevel.com/?fp_ref=avg', '_blank');
-    });
-  }
-});
